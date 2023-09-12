@@ -1,22 +1,33 @@
-# Bank Management System
+# PDF Utility Tool
 
 ## Overview
-- A C++ program for basic banking operations.
-- Features account creation, deposit, withdrawal, and more.
+- A Python script for managing PDF files.
+- Features merging, removing pages, and extracting pages.
 
 ## Features
-- **Account Creation:** Open accounts with unique account numbers.
-- **Deposit:** Add money to an account.
-- **Withdrawal:** Deduct money from an account.
-- **Display Account:** View details of a single account.
-- **Display All Accounts:** See a table of all accounts.
+- **Select Files:** Choose PDF files for operations.
+- **Merge PDFs:** Combine selected PDFs into one.
+- **Remove Pages:** Delete specific pages from selected PDFs.
+- **Extract Pages:** Create new PDFs from selected pages.
 
 ## Usage
-1. **Compilation:** Compile using a C++ compiler.
+1. **Select Files:** Click the button to choose PDF files.
+2. **Merge PDFs:** Merge selected files into one PDF.
+3. **Remove Pages:** Enter page numbers to remove.
+4. **Extract Pages:** Enter page numbers to extract.
 
-2. **Execution:** Run the program.
+## Requirements
+- Python 3.x
+- PyPDF2 library
 
-3. **Menu:** Choose from available options for banking operations.
+## Installation
+- Install the required library using:
+
+## Execution
+- Run the Python script.
+
+## Note
+- Always keep backups of your original PDF files.
 
 ## Contributing
 - Contributions are welcome via issues or pull requests.
@@ -25,6 +36,6 @@
 - This project is under the MIT License.
 
 ## Acknowledgments
-- Thanks to the C++ programming community.
+- Thanks to the Python community.
 
 Feel free to customize this README to suit your project and its specific details.
